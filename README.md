@@ -147,7 +147,3 @@ terraform init
 # Si el servidor se detiene, ejecuta:
 cd frontend && python3 -m http.server 8000
 ```
-
-## Licencia
-
-Desarrollado por BlockStellart
