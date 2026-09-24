@@ -1,0 +1,37 @@
+# Archivos ZIP generados automáticamente
+*.zip
+
+# Carpeta de build
+build/
+
+# Archivos de Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate*
+*.tfplan
+
+# Archivos de AWS
+.aws/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de Lambda
+lambda/*.zip
